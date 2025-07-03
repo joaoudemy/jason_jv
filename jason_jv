@@ -1,0 +1,56 @@
+ {
+  "biblioteca": {
+    "nome": "Biblioteca Municipal",
+    "endereco": {
+      "rua": "Rua da Leitura",
+      "numero": 123,
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
+    },
+    "telefone": "(21) 1234-5678",
+    "livros": [
+      {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "ano_publicacao": 1949,
+        "genero": ["Ficção Científica", "Distopia"],
+        "disponibilidade": false
+      },
+      {
+        "titulo": "Dom Casmurro",
+        "autor": "Machado de Assis",
+        "ano_publicacao": 1899,
+        "genero": ["Romance", "Clássico"],
+        "disponibilidade": true
+      },
+      {
+        "titulo": "A Revolução dos Bichos",
+        "autor": "George Orwell",
+        "ano_publicacao": 1945,
+        "genero": ["Fábula", "Política"],
+        "disponibilidade": true
+      },
+      {
+        "titulo": "O Pequeno Príncipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "ano_publicacao": 1943,
+        "genero": ["Infantil", "Ficção"],
+        "disponibilidade": true
+      }
+    ],
+    "horarios_funcionamento": {
+      "segunda_a_sexta": {
+        "abertura": "09:00",
+        "fechamento": "18:00"
+      },
+      "sabado": {
+        "abertura": "10:00",
+        "fechamento": "14:00"
+      },
+      "domingo": {
+        "fechado": true
+      }
+    }
+  }
+}
+
