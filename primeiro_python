@@ -1,0 +1,50 @@
+
+
+nome = input('Digite seu nome: ')
+idade = int(input('Digite sua idade: '))
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura:'))
+empresa = input('Digite o nome da empresa: ')
+cargo = input('Digite seu cargo: ')
+IMC = peso // altura
+
+print('Meu nome é', nome, 'tenho', idade, 'anos de idade, peso', peso, 'kg e trabalho na', empresa, 'como', cargo, 'e o meu IMC é' , IMC, '!')
+
+
+alunos_presente = 26
+alunos_ausentes = 5
+Total_alunos = alunos_presente + alunos_ausentes
+
+print('O total de alunos é', Total_alunos,)
+
+
+
+pro1 = 10
+pro1 += 10
+resultado = pro1
+print(resultado)
+
+#rint(num1)
+#rint(num2)
+print(151 - 52)
+
+
+num1 = 3.1425
+print(num1)
+print(round(num1, 3))
+
+print(pow(2, 3))
+
+print(min(2,4,6,8,5,9,234))
+
+print(sum([1, 2,5,8]))
+
+
+
+import math
+
+print(math.ceil(4.2))
+print(math.pow(2, 3 ))
+print(math.sqrt(16))
+
+#math - Mathematical functions
